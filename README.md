@@ -45,7 +45,7 @@ Website
 ### **Team information**
 
 <!-- Let us know your team composition and everyone's responsibility -->
-- [ Steve wu ] solidity developer, previous experience
+- [ Steve wu ] solidity developer, https://gist.github.com/Stevewu1234/56563986b749fe0232155b1096cb32c5
 - [ C ] Java, JS, previous experience
 - [ D ] , ...
 - [ Tang Bo Hao ] product designer. [Github](https://github.com/btspoony)
