@@ -36,7 +36,7 @@ DAO, NFT, Polygon, SuperFluid, Chainlink
 
 ### **Ethereum Wallet Address**
 
-0x.......
+0xf0B84d97327b4a27D7FF1eF03fe9Bb37E554628d
 
 ### **Documentation**
 
