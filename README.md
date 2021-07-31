@@ -4,7 +4,7 @@
 
 ### **Team name**
 
-Team#n: FluidDAO
+Team#12: FluidDAO
 
 ### **Product direction**
 
@@ -58,7 +58,7 @@ Website
 - [ Tang Bo Hao ] product designer. [Github](https://github.com/btspoony)
 - [ fromddy ]  student. [Github](https://github.com/fromddy)
 - [ Tony Lyu ] entrepreneur, blockchain project leader
-- [ dispa1r ] student. 
+- [ dispa1r ] student. [Github](github.com/dispa1r)
 - [ YanLong-111 ] solidity developer
 
 <!-- 
