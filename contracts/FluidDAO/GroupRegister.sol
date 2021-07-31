@@ -2,6 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "../Interface/IWarrant.sol";
+import "../Interface/IIosgTwitter.sol";
 
 abstract contract GroupRegister {
 
@@ -18,8 +19,10 @@ abstract contract GroupRegister {
 
     IWarrant internal warrant;
 
-    constructor(address warrantAddress) {
+    IIosgTwitter internal twitterVerify;
+    constructor(address warrantAddress, address twitterVerifyAddress) {
         warrant = IWarrant(warrantAddress);
+        twitterVerify = IIosgTwitter(twitterVerifyAddress);
     }
 
     /** ========== external mutative functions ========== */
@@ -29,7 +32,7 @@ abstract contract GroupRegister {
         string memory description,
         address fundReceiver
     ) external {
-
+        _requireTwitterVerified(msg.sender);
         require(!requireGroupMessageFillout(groupname), "Sorry, the group has been registered");
         _groupMessageSetting(groupname, description, msg.sender, fundReceiver);
     }
@@ -94,6 +97,10 @@ abstract contract GroupRegister {
 
     function _getTokenIdOfPerGroup(bytes32 groupname) internal view returns (uint256 tokenId) {
         return tokenIdOfPerGroup[_groupname];
+    }
+
+    function _requireTwitterVerified(address account) internal view returns (bool) {
+         require(twitterVerify.getVerification(account) == true, "Sorry, you must verify your account first");
     }
 
     /** ========== event ========== */
