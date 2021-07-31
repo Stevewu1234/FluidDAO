@@ -4,7 +4,7 @@
 
 ### **Team name**
 
-Team#n: FluidDAO
+Team#12: FluidDAO
 
 ### **Product direction**
 
