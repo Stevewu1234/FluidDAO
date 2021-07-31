@@ -56,7 +56,7 @@ Website
 <!-- Let us know your team composition and everyone's responsibility -->
 - [ Steve wu ] solidity developer, https://gist.github.com/Stevewu1234/56563986b749fe0232155b1096cb32c5
 - [ Tang Bo Hao ] product designer. [Github](https://github.com/btspoony)
-- [ C ] Java, JS, previous experience
+- [ fromddy ]  student. [Github](https://github.com/fromddy)
 - [ D ] , ...
 - [ B ] Java, JS, previous experience
 - [ C ] , ...
@@ -71,7 +71,7 @@ Steps to follow
     - Fork this repo
     - Add your projects files(source codes, demo video, docs, PPT etc.) into e.g. /projects/Team-0-AAAA, /projects/Team-1-BBBB folder
     - New a PR to this repo
--->
+    -->
 
 ## Draft of project design
 
