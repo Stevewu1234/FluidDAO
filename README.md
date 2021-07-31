@@ -8,13 +8,23 @@ Team#n: FluidDAO
 
 ### **Product direction**
 
-<!-- Please brief your product direction so that judges will know in what space you mainly built, etc. -->
-TODO
+DAO, NFT, Polygon, SuperFluid, Chainlink
 
 ### **Introduction**
 
 <!-- Introduce your product in detail, including what problems are you going to solve, what highlight techs you are using, what values it will bring, etc. -->
-TODO
+
+- Awkward Situation of DAO:
+  - Supervise of the project after sponsorship
+  - Fund utilization and security after fundraising
+- Highlight Techs we are using:
+  - Layer2: Polygon, we build our project on Polygon.
+  - SuperFluid - Core component, wrap the DAO token and donate/vote in a period like fluid flow
+  - ChainLink - as the price service
+- What values we want to bring:
+  - This is a dao with controllable fund flow powered by SuperFluid.
+  - We are using funding flow NFT(powered by SuperFluid) to provide wrapped DAO Token as the governance token in a DAO's activity period.
+  - Currently we only provide one DAO strategy that is 'Donating and Selection', so we using Chainlink to provide price service for Token Value Estimating.
 
 ### **Github link**
 
@@ -22,9 +32,7 @@ TODO
 
 ### **Demo link**
 
-<!-- Provide a link to the demo recording if you have -->
-
-TODO
+[https://Stevewu1234.github.io/FluidDAO/](https://stevewu1234.github.io/fluiddao/)
 
 ### **Ethereum Wallet Address**
 
@@ -32,7 +40,8 @@ TODO
 
 ### **Documentation**
 
-[optional] add here if there is a doc for the product （PDF, etc.)
+PPT：[Presentation.pptx](./rawfiles/FluidDao-presentation.pptx)
+PDF: [Presentation.pdf](./rawfiles/FluidDao-presentation.pdf)
 
 <!--
 Twitter handle
@@ -46,9 +55,11 @@ Website
 
 <!-- Let us know your team composition and everyone's responsibility -->
 - [ Steve wu ] solidity developer, https://gist.github.com/Stevewu1234/56563986b749fe0232155b1096cb32c5
+- [ Tang Bo Hao ] product designer. [Github](https://github.com/btspoony)
 - [ C ] Java, JS, previous experience
 - [ D ] , ...
-- [ Tang Bo Hao ] product designer. [Github](https://github.com/btspoony)
+- [ B ] Java, JS, previous experience
+- [ C ] , ...
 
 <!-- 
 Steps to follow
