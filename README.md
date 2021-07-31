@@ -40,8 +40,8 @@ DAO, NFT, Polygon, SuperFluid, Chainlink
 
 ### **Documentation**
 
-PPT：[Presentation.pptx](./rawfiles/FluidDao-presentation.pptx)
-PDF: [Presentation.pdf](./rawfiles/FluidDao-presentation.pdf)
+- PPT: [Presentation.pptx](https://github.com/Stevewu1234/FluidDAO/raw/master/rawfiles/FluidDao-presentation.pptx)
+- PDF: [Presentation.pdf](https://github.com/Stevewu1234/FluidDAO/raw/master/rawfiles/FluidDao-presentation.pdf)
 
 <!--
 Twitter handle
